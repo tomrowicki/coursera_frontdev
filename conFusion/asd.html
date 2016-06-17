@@ -1,0 +1,88 @@
+<form class="form-horizontal" role="form">
+  <div class="radio col-sm-8 col-sm-push-3">
+    <div class="col-sm-2" align=right>
+      <strong>Number of Guests</strong>
+      <p style="padding:10px;"></p>
+    </div>
+    <div class="col-sm-8">
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option5"> 5
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6"> 6
+      </label>
+    </div>
+  </div>
+
+
+  <div class="col-sm-10 form-inline">
+    <div class="form-group has-feedback">
+      <input type="text" class="form-control" placeholder="Date">
+      <span class="glyphicon glyphicon-calendar form-control-feedback" aria-hidden="true"></span>
+    </div>
+    <div class="form-group has-feedback">
+      <input type="text" class="form-control" placeholder="Time">
+      <span class="glyphicon glyphicon-time form-control-feedback" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="dateAndTime" class="col-sm-2 control-label">Date and Time</label>
+    <div class="col-sm-3">
+      <div class="form-group has-feedback">
+        <input type="date" class="form-control" name="dateAndTime" placeholder="Date"><i class="glyphicon glyphicon-calendar form-control-feedback"></i>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+
+    <div class="col-sm-3">
+      <div class="form-group has-feedback">
+        <input type="time" class="form-control" name="dateAndTime" placeholder="Date"><i class="glyphicon glyphicon-time form-control-feedback"></i>
+      </div>
+    </div>
+  </div>
+
+  <p style="padding:20px;"></p>
+  <div class="form-group col-sm-12">
+    <div class="col-sm-3">
+      <h3 style="display: inline-block; margin: 0px">Reserve a Table</h3>
+    </div>
+    <div class="col-sm-2"><strong>Date and time</strong></div>
+    <div class="form-group has-feedback col-sm-2">
+      <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+      <i class="glyphicon glyphicon-calendar form-control-feedback"></i>
+    </div>
+    <div class="form-group has-feedback col-sm-2 col-sm-push-1">
+      <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+      <i class="glyphicon glyphicon-time form-control-feedback"></i>
+    </div>
+  </div>
+  <div class="col-sm-3 col-sm-push-5">
+    <button type="reserve" class="btn btn-primary">Reserve</button>
+    <p style="padding:10px;"></p>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-9 col-sm-push-3">
+  <div	class="alert	alert-warning	alert-dismissible"	role="alert">
+    <button	type="button"	class="close"
+    data-dismiss="alert"	aria-label="Close">
+    <span	aria-hidden="true">&times;</span>
+  </button>
+  <strong>Warning:</strong>:	Please
+  <a	href="tel:+85212345678"	class="alert-link">
+    call</a>	us	to	reserve	for	more	than	six	guests.
+  </div>
+</div>
+</form>
